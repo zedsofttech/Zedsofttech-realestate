@@ -53,8 +53,8 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "/pages/authentication/sign-in",
+          label: "SignUp",
           color: "info",
         }}
         sticky
@@ -104,8 +104,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Sure We Will Ready To Become True With Your Dream
             </MKTypography>
           </Grid>
         </Container>
